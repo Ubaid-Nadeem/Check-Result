@@ -26,7 +26,7 @@ var Person15 = new Person('Salam', 'Siraj', '22541', 'Engeneering', 'Failed')
 var Person16 = new Person('Ali', 'Israr', '22534', 'Sceince', 'Passed')
 var Person17 = new Person('Hasseb', 'Pappu', '13553', 'Computer', 'Passed')
 var Person18 = new Person('Mubeen', 'Shafeeq', '20135', 'Engeneering', 'Passed')
-var Person19 = new Person('Aliza', 'Syed Muhammad toufeeq', '207865', 'Engenering', 'Passed')
+var Person19 = new Person('Syeda Alizay', 'Syed Muhammad toufeeq', '207865', 'Engenering', 'Passed')
 var Person20 = new Person('Arslan', 'Arif', '89787', 'Engeneering', 'Passed')
 
 

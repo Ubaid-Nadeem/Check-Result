@@ -16,7 +16,7 @@ h1{
     color: #fff;
     font-family: sans-serif;
     font-size: 45px;
-    top: 160px;
+    top: 120px;
     position: relative;
 }
 .search-bar{
@@ -25,12 +25,12 @@ h1{
     padding: 10px;
     margin: auto;
     position: relative;
-    top: 200px;
+    top: 150px;
     /* display: none; */
 }
 .search-bar input{
     padding: 5px;
-    width: 250px;
+    width: 220px;
     border: none;
     outline: none;
 background: none;
@@ -52,7 +52,7 @@ color: #207398;
     height: auto;
     margin: auto;
     position: relative;
-    top: 180px;
+    top: 150px;
     display: none;
 }
 .btn{
