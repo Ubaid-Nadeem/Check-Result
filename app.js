@@ -569,13 +569,23 @@ var check = false
   {"Rank":"336","Percentile":"0.00","Grade":"-","TestsMissed":"1","RollNumber":"BCC008711","Name":"Syed Danish Ali"}
   ]
 var input = document.getElementById('input');
+var  z 
 
 var search = document.getElementById('search');
 search.addEventListener('click', () => {
-    // location.replace('www.youtube.com')
-    // console.log(input.value)
+
+    const str = input.value;
+    const arr = str.split(" ");
+    for (var i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    console.log(arr[i] )
+    }
+    
+    const str2 = arr.join(" ");
+
     data.forEach(value => {
-        if (input.value == value.RollNumber || input.value == value.Name) {
+        if (str2 == value.RollNumber || str2 == value.Name) {
+           
             console.log(value)
             var search_bar = document.getElementById('search_bar')
             search_bar.style.display = 'none'
